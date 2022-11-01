@@ -1,0 +1,365 @@
+65000:0:*|No export to AS$1
+65001:0:*|Only export to AS$1
+65002:0:0|No export to Afrinic ASNs
+65002:0:1|No export to Apnic ASNs
+65002:0:2|No export to Arin ASNs
+65002:0:3|No export to Lacnic ASNs
+65002:0:4|No export to Ripe ASNs
+65002:0:5|No export to Brasil ASNs
+65003:0:0|Only export to Afrinic ASNs
+65003:0:1|Only export to Apnic ASNs
+65003:0:2|Only export to Arin ASNs
+65003:0:3|Only export to Lacnic ASNs
+65003:0:4|Only export to Ripe ASNs
+65003:0:5|Only export to Brasil ASNs
+65004:0:65011|No export to IX.br São Paulo/SP
+65004:0:65012|No export to IX.br São José dos Campos/SP
+65004:0:65017|No export to IX.br São José do Rio Preto/SP
+65004:0:65019|No export to IX.br Campinas/SP
+65004:0:65021|No export to IX.br Rio de Janeiro/RJ
+65004:0:65027|No export to IX.br Vitória/ES
+65004:0:65031|No export to IX.br Belo Horizonte/MG
+65004:0:65041|No export to IX.br Curitiba/PR
+65004:0:65043|No export to IX.br Londrina/PR
+65004:0:65044|No export to IX.br Maringá/PR
+65004:0:65045|No export to IX.br Foz do Iguaçu/PR
+65004:0:65048|No export to IX.br Florianópolis/SC
+65004:0:65051|No export to IX.br Porto Alegre/RS
+65004:0:65054|No export to IX.br Caxias do Sul/RS
+65004:0:65055|No export to IX.br Santa Maria/RS
+65004:0:65061|No export to IX.br Brasília/DF
+65004:0:65062|No export to IX.br Goiânia/GO
+65004:0:65065|No export to IX.br Cuiabá/MT
+65004:0:65067|No export to IX.br Campo Grande/MS
+65004:0:65071|No export to IX.br Salvador/BA
+65004:0:65079|No export to IX.br Aracaju/SE
+65004:0:65081|No export to IX.br Recife/PE
+65004:0:65082|No export to IX.br Maceió/AL
+65004:0:65083|No export to IX.br Campina Grande/PB
+65004:0:65084|No export to IX.br Natal/RN
+65004:0:65085|No export to IX.br Fortaleza/CE
+65004:0:65086|No export to IX.br Teresina/PI
+65004:0:65091|No export to IX.br Belém/PA
+65004:0:65092|No export to IX.br Manaus/AM
+65004:0:65098|No export to IX.br São Luis/MA
+65010:0:10|No export to RTT > 10ms
+65010:0:100|No export to RTT > 100ms
+65010:0:150|No export to RTT > 150ms
+65010:0:200|No export to RTT > 200ms
+65010:0:250|No export to RTT > 250ms
+65010:0:50|No export to RTT > 50ms
+65010:0:999|No export to RTT is unknown
+65011:0:10|No export to packet loss > 10%
+65011:0:2|No export to packet loss > 2%
+65011:0:999|No export to packet loss = 100% or unknown
+64601:*|Add one prepend to AS$1
+64601:0:*|Add one prepend to AS$1
+64602:*|Add two prepends to AS$1
+64602:0:*|Add two prepends to AS$1
+64603:*|Add three prepends to AS$1
+64603:0:*|Add three prepends to AS$1
+64611:0:10|Add one prepend to RTT > 10ms
+64611:0:100|Add one prepend to RTT > 100ms
+64611:0:150|Add one prepend to RTT > 150ms
+64611:0:200|Add one prepend to RTT > 200ms
+64611:0:250|Add one prepend to RTT > 250ms
+64611:0:50|Add one prepend to RTT > 50ms
+64611:0:999|Add one prepend to RTT is unknown
+64611:10|Add one prepend to RTT > 10ms
+64611:100|Add one prepend to RTT > 100ms
+64611:150|Add one prepend to RTT > 150ms
+64611:200|Add one prepend to RTT > 200ms
+64611:250|Add one prepend to RTT > 250ms
+64611:50|Add one prepend to RTT > 50ms
+64611:999|Add one prepend to RTT is unknown
+64612:0:10|Add two prepends to RTT > 10ms
+64612:0:100|Add two prepends to RTT > 100ms
+64612:0:150|Add two prepends to RTT > 150ms
+64612:0:200|Add two prepends to RTT > 200ms
+64612:0:250|Add two prepends to RTT > 250ms
+64612:0:50|Add two prepends to RTT > 50ms
+64612:0:999|Add two prepends to RTT is unknown
+64612:10|Add two prepends to RTT > 10ms
+64612:100|Add two prepends to RTT > 100ms
+64612:150|Add two prepends to RTT > 150ms
+64612:200|Add two prepends to RTT > 200ms
+64612:250|Add two prepends to RTT > 250ms
+64612:50|Add two prepends to RTT > 50ms
+64612:999|Add two prepends to RTT is unknown
+64613:0:10|Add three prepends to RTT > 10ms
+64613:0:100|Add three prepends to RTT > 100ms
+64613:0:150|Add three prepends to RTT > 150ms
+64613:0:200|Add three prepends to RTT > 200ms
+64613:0:250|Add three prepends to RTT > 250ms
+64613:0:50|Add three prepends to RTT > 50ms
+64613:0:999|Add three prepends to RTT is unknown
+64613:10|Add three prepends to RTT > 10ms
+64613:100|Add three prepends to RTT > 100ms
+64613:150|Add three prepends to RTT > 150ms
+64613:200|Add three prepends to RTT > 200ms
+64613:250|Add three prepends to RTT > 250ms
+64613:50|Add three prepends to RTT > 50ms
+64613:999|Add three prepends to RTT is unknown
+64621:0:10|Add one prepend to packet loss > 10%
+64621:0:2|Add one prepend to packet loss > 2%
+64621:0:999|Add one prepend to packet loss = 100% or unknown
+64621:10|Add one prepend to packet loss > 10%
+64621:2|Add one prepend to packet loss > 2%
+64621:999|Add one prepend to packet loss = 100% or unknown
+64622:0:10|Add two prepends to packet loss > 10%
+64622:0:2|Add two prepends to packet loss > 2%
+64622:0:999|Add two prepends to packet loss = 100% or unknown
+64622:10|Add two prepends to packet loss > 10%
+64622:2|Add two prepends to packet loss > 2%
+64622:999|Add two prepends to packet loss = 100% or unknown
+64623:0:10|Add three prepends to packet loss > 10%
+64623:0:2|Add three prepends to packet loss > 2%
+64623:0:999|Add three prepends to packet loss = 100% or unknown
+64623:10|Add three prepends to packet loss > 10%
+64623:2|Add three prepends to packet loss > 2%
+64623:999|Add three prepends to packet loss = 100% or unknown
+65000:*|No export to AS$1
+65001:*|Only export to AS$1
+65002:0|No export to Afrinic ASNs
+65002:1|No export to Apnic ASNs
+65002:2|No export to Arin ASNs
+65002:3|No export to Lacnic ASNs
+65002:4|No export to Ripe ASNs
+65002:5|No export to Brasil ASNs
+65003:0|Only export to Afrinic ASNs
+65003:1|Only export to Apnic ASNs
+65003:2|Only export to Arin ASNs
+65003:3|Only export to Lacnic ASNs
+65003:4|Only export to Ripe ASNs
+65003:5|Only export to Brasil ASNs
+65004:65011|No export to IX.br São Paulo/SP
+65004:65012|No export to IX.br São José dos Campos/SP
+65004:65017|No export to IX.br São José do Rio Preto/SP
+65004:65019|No export to IX.br Campinas/SP
+65004:65021|No export to IX.br Rio de Janeiro/RJ
+65004:65027|No export to IX.br Vitória/ES
+65004:65031|No export to IX.br Belo Horizonte/MG
+65004:65041|No export to IX.br Curitiba/PR
+65004:65043|No export to IX.br Londrina/PR
+65004:65044|No export to IX.br Maringá/PR
+65004:65045|No export to IX.br Foz do Iguaçu/PR
+65004:65048|No export to IX.br Florianópolis/SC
+65004:65051|No export to IX.br Porto Alegre/RS
+65004:65054|No export to IX.br Caxias do Sul/RS
+65004:65055|No export to IX.br Santa Maria/RS
+65004:65061|No export to IX.br Brasília/DF
+65004:65062|No export to IX.br Goiânia/GO
+65004:65065|No export to IX.br Cuiabá/MT
+65004:65067|No export to IX.br Campo Grande/MS
+65004:65071|No export to IX.br Salvador/BA
+65004:65079|No export to IX.br Aracaju/SE
+65004:65081|No export to IX.br Recife/PE
+65004:65082|No export to IX.br Maceió/AL
+65004:65083|No export to IX.br Campina Grande/PB
+65004:65084|No export to IX.br Natal/RN
+65004:65085|No export to IX.br Fortaleza/CE
+65004:65086|No export to IX.br Teresina/PI
+65004:65091|No export to IX.br Belém/PA
+65004:65092|No export to IX.br Manaus/AM
+65004:65098|No export to IX.br São Luis/MA
+65010:10|No export to RTT > 10ms
+65010:100|No export to RTT > 100ms
+65010:150|No export to RTT > 150ms
+65010:200|No export to RTT > 200ms
+65010:250|No export to RTT > 250ms
+65010:50|No export to RTT > 50ms
+65010:999|No export to RTT is unknown
+65011:10|No export to packet loss > 10%
+65011:2|No export to packet loss > 2%
+65011:999|No export to packet loss = 100% or unknown
+65535:0|Graceful shutdown
+65535:1|accept own
+65535:1048321|no export
+65535:1048322|no advertise
+65535:1048323|no export subconfed
+65535:1048324|nopeer
+65535:2|route filter translated v4
+65535:3|route filter v4
+65535:4|route filter translated v6
+65535:5|route filter v6
+65535:6|llgr stale
+65535:616:666|Blackhole
+65535:666|Blackhole
+65535:7|no llgr
+65535:8|accept-own-nexthop
+ro:64601:*|Add one prepend to AS$1
+ro:64602:*|Add two prepends to AS$1
+ro:64603:*|Add three prepends to AS$1
+ro:64611:10|Add one prepend to RTT > 10ms
+ro:64611:100|Add one prepend to RTT > 100ms
+ro:64611:150|Add one prepend to RTT > 150ms
+ro:64611:200|Add one prepend to RTT > 200ms
+ro:64611:250|Add one prepend to RTT > 250ms
+ro:64611:50|Add one prepend to RTT > 50ms
+ro:64611:999|Add one prepend to RTT is unknown
+ro:64612:10|Add two prepends to RTT > 10ms
+ro:64612:100|Add two prepends to RTT > 100ms
+ro:64612:150|Add two prepends to RTT > 150ms
+ro:64612:200|Add two prepends to RTT > 200ms
+ro:64612:250|Add two prepends to RTT > 250ms
+ro:64612:50|Add two prepends to RTT > 50ms
+ro:64612:999|Add two prepends to RTT is unknown
+ro:64613:10|Add three prepends to RTT > 10ms
+ro:64613:100|Add three prepends to RTT > 100ms
+ro:64613:150|Add three prepends to RTT > 150ms
+ro:64613:200|Add three prepends to RTT > 200ms
+ro:64613:250|Add three prepends to RTT > 250ms
+ro:64613:50|Add three prepends to RTT > 50ms
+ro:64613:999|Add three prepends to RTT is unknown
+ro:64621:10|Add one prepend to packet loss > 10%
+ro:64621:2|Add one prepend to packet loss > 2%
+ro:64621:999|Add one prepend to packet loss = 100% or unknown
+ro:64622:10|Add two prepends to packet loss > 10%
+ro:64622:2|Add two prepends to packet loss > 2%
+ro:64622:999|Add two prepends to packet loss = 100% or unknown
+ro:64623:10|Add three prepends to packet loss > 10%
+ro:64623:2|Add three prepends to packet loss > 2%
+ro:64623:999|Add three prepends to packet loss = 100% or unknown
+ro:65000:*|No export to AS$1
+ro:65001:*|Only export to AS$1
+ro:65002:0|No export to Afrinic ASNs
+ro:65002:1|No export to Apnic ASNs
+ro:65002:2|No export to Arin ASNs
+ro:65002:3|No export to Lacnic ASNs
+ro:65002:4|No export to Ripe ASNs
+ro:65002:5|No export to Brasil ASNs
+ro:65003:0|Only export to Afrinic ASNs
+ro:65003:1|Only export to Apnic ASNs
+ro:65003:2|Only export to Arin ASNs
+ro:65003:3|Only export to Lacnic ASNs
+ro:65003:4|Only export to Ripe ASNs
+ro:65003:5|Only export to Brasil ASNs
+ro:65004:65011|No export to IX.br São Paulo/SP
+ro:65004:65012|No export to IX.br São José dos Campos/SP
+ro:65004:65017|No export to IX.br São José do Rio Preto/SP
+ro:65004:65019|No export to IX.br Campinas/SP
+ro:65004:65021|No export to IX.br Rio de Janeiro/RJ
+ro:65004:65027|No export to IX.br Vitória/ES
+ro:65004:65031|No export to IX.br Belo Horizonte/MG
+ro:65004:65041|No export to IX.br Curitiba/PR
+ro:65004:65043|No export to IX.br Londrina/PR
+ro:65004:65044|No export to IX.br Maringá/PR
+ro:65004:65045|No export to IX.br Foz do Iguaçu/PR
+ro:65004:65048|No export to IX.br Florianópolis/SC
+ro:65004:65051|No export to IX.br Porto Alegre/RS
+ro:65004:65054|No export to IX.br Caxias do Sul/RS
+ro:65004:65055|No export to IX.br Santa Maria/RS
+ro:65004:65061|No export to IX.br Brasília/DF
+ro:65004:65062|No export to IX.br Goiânia/GO
+ro:65004:65065|No export to IX.br Cuiabá/MT
+ro:65004:65067|No export to IX.br Campo Grande/MS
+ro:65004:65071|No export to IX.br Salvador/BA
+ro:65004:65079|No export to IX.br Aracaju/SE
+ro:65004:65081|No export to IX.br Recife/PE
+ro:65004:65082|No export to IX.br Maceió/AL
+ro:65004:65083|No export to IX.br Campina Grande/PB
+ro:65004:65084|No export to IX.br Natal/RN
+ro:65004:65085|No export to IX.br Fortaleza/CE
+ro:65004:65086|No export to IX.br Teresina/PI
+ro:65004:65091|No export to IX.br Belém/PA
+ro:65004:65092|No export to IX.br Manaus/AM
+ro:65004:65098|No export to IX.br São Luis/MA
+ro:65010:10|No export to RTT > 10ms
+ro:65010:100|No export to RTT > 100ms
+ro:65010:150|No export to RTT > 150ms
+ro:65010:200|No export to RTT > 200ms
+ro:65010:250|No export to RTT > 250ms
+ro:65010:50|No export to RTT > 50ms
+ro:65010:999|No export to RTT is unknown
+ro:65011:10|No export to packet loss > 10%
+ro:65011:2|No export to packet loss > 2%
+ro:65011:999|No export to packet loss = 100% or unknown
+ro:65535:666|Blackhole
+rt:64601:*|Add one prepend to AS$1
+rt:64602:*|Add two prepends to AS$1
+rt:64603:*|Add three prepends to AS$1
+rt:64611:10|Add one prepend to RTT > 10ms
+rt:64611:100|Add one prepend to RTT > 100ms
+rt:64611:150|Add one prepend to RTT > 150ms
+rt:64611:200|Add one prepend to RTT > 200ms
+rt:64611:250|Add one prepend to RTT > 250ms
+rt:64611:50|Add one prepend to RTT > 50ms
+rt:64611:999|Add one prepend to RTT is unknown
+rt:64612:10|Add two prepends to RTT > 10ms
+rt:64612:100|Add two prepends to RTT > 100ms
+rt:64612:150|Add two prepends to RTT > 150ms
+rt:64612:200|Add two prepends to RTT > 200ms
+rt:64612:250|Add two prepends to RTT > 250ms
+rt:64612:50|Add two prepends to RTT > 50ms
+rt:64612:999|Add two prepends to RTT is unknown
+rt:64613:10|Add three prepends to RTT > 10ms
+rt:64613:100|Add three prepends to RTT > 100ms
+rt:64613:150|Add three prepends to RTT > 150ms
+rt:64613:200|Add three prepends to RTT > 200ms
+rt:64613:250|Add three prepends to RTT > 250ms
+rt:64613:50|Add three prepends to RTT > 50ms
+rt:64613:999|Add three prepends to RTT is unknown
+rt:64621:10|Add one prepend to packet loss > 10%
+rt:64621:2|Add one prepend to packet loss > 2%
+rt:64621:999|Add one prepend to packet loss = 100% or unknown
+rt:64622:10|Add two prepends to packet loss > 10%
+rt:64622:2|Add two prepends to packet loss > 2%
+rt:64622:999|Add two prepends to packet loss = 100% or unknown
+rt:64623:10|Add three prepends to packet loss > 10%
+rt:64623:2|Add three prepends to packet loss > 2%
+rt:64623:999|Add three prepends to packet loss = 100% or unknown
+rt:65000:*|No export to AS$1
+rt:65001:*|Only export to AS$1
+rt:65002:0|No export to Afrinic ASNs
+rt:65002:1|No export to Apnic ASNs
+rt:65002:2|No export to Arin ASNs
+rt:65002:3|No export to Lacnic ASNs
+rt:65002:4|No export to Ripe ASNs
+rt:65002:5|No export to Brasil ASNs
+rt:65003:0|Only export to Afrinic ASNs
+rt:65003:1|Only export to Apnic ASNs
+rt:65003:2|Only export to Arin ASNs
+rt:65003:3|Only export to Lacnic ASNs
+rt:65003:4|Only export to Ripe ASNs
+rt:65003:5|Only export to Brasil ASNs
+rt:65004:65011|No export to IX.br São Paulo/SP
+rt:65004:65012|No export to IX.br São José dos Campos/SP
+rt:65004:65017|No export to IX.br São José do Rio Preto/SP
+rt:65004:65019|No export to IX.br Campinas/SP
+rt:65004:65021|No export to IX.br Rio de Janeiro/RJ
+rt:65004:65027|No export to IX.br Vitória/ES
+rt:65004:65031|No export to IX.br Belo Horizonte/MG
+rt:65004:65041|No export to IX.br Curitiba/PR
+rt:65004:65043|No export to IX.br Londrina/PR
+rt:65004:65044|No export to IX.br Maringá/PR
+rt:65004:65045|No export to IX.br Foz do Iguaçu/PR
+rt:65004:65048|No export to IX.br Florianópolis/SC
+rt:65004:65051|No export to IX.br Porto Alegre/RS
+rt:65004:65054|No export to IX.br Caxias do Sul/RS
+rt:65004:65055|No export to IX.br Santa Maria/RS
+rt:65004:65061|No export to IX.br Brasília/DF
+rt:65004:65062|No export to IX.br Goiânia/GO
+rt:65004:65065|No export to IX.br Cuiabá/MT
+rt:65004:65067|No export to IX.br Campo Grande/MS
+rt:65004:65071|No export to IX.br Salvador/BA
+rt:65004:65079|No export to IX.br Aracaju/SE
+rt:65004:65081|No export to IX.br Recife/PE
+rt:65004:65082|No export to IX.br Maceió/AL
+rt:65004:65083|No export to IX.br Campina Grande/PB
+rt:65004:65084|No export to IX.br Natal/RN
+rt:65004:65085|No export to IX.br Fortaleza/CE
+rt:65004:65086|No export to IX.br Teresina/PI
+rt:65004:65091|No export to IX.br Belém/PA
+rt:65004:65092|No export to IX.br Manaus/AM
+rt:65004:65098|No export to IX.br São Luis/MA
+rt:65010:10|No export to RTT > 10ms
+rt:65010:100|No export to RTT > 100ms
+rt:65010:150|No export to RTT > 150ms
+rt:65010:200|No export to RTT > 200ms
+rt:65010:250|No export to RTT > 250ms
+rt:65010:50|No export to RTT > 50ms
+rt:65010:999|No export to RTT is unknown
+rt:65011:10|No export to packet loss > 10%
+rt:65011:2|No export to packet loss > 2%
+rt:65011:999|No export to packet loss = 100% or unknown
+rt:65535:666|Blackhole

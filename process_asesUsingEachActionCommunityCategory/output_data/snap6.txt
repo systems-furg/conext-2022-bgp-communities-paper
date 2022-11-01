@@ -1,0 +1,9 @@
+netnodstocb|avoid_v4|allow_v4|prepend_v4|blackhole_v4|avoid_v6|allow_v6|prepend_v6|blackhole_v6
+ixbr|853|420|111|33|103|37|0|0
+decix|325|154|203|109|74|28|136|11
+linx|187|82|144|81|10|6|0|0
+amsix|187|85|86|50|0|0|8|1
+decixmad|41|25|15|5|5|2|5|0
+decixnyc|59|39|24|10|8|3|16|1
+bcix|19|13|5|2|0|0|1|0
+netnodstocb|48|30|15|15|2|2|7|1

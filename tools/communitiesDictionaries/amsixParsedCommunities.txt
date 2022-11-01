@@ -1,0 +1,37 @@
+0:6777|Do not announce a prefix to any peer
+6777:6777|Announce a prefix to all peers
+rt:0:6777|Do not announce a prefix to any peer
+6777:0:0|Do not announce a prefix to any peer
+6777:65501| Prepend one time towards all other peers
+6777:65502| Prepend two times towards all other peers
+6777:65503| Prepend three times towards all other peers
+65535:0|graceful shutdown
+65535:1|accept own
+65535:1048321|no export
+65535:1048322|no advertise
+65535:1048323|no export subconfed
+65535:1048324|nopeer
+65535:2|route filter translated v4
+65535:3|route filter v4
+65535:4|route filter translated v6
+65535:5|route filter v6
+65535:6|llgr stale
+65535:666|blackhole
+65535:7|no llgr
+65535:8|accept-own-nexthop
+6777:65011|Prefix present in ASs announced AS/AS-SET
+6777:65012|Prefix with ROA status VALID
+6777:65021|Prefix not present in ASs announced AS/AS-SET
+6777:65022|Prefix with ROA status INVALID
+6777:65023|Prefix with ROA status UNKNOWN
+6777:65511|Prefix is learned at RS1
+6777:65522|Prefix is learned at RS2
+0:*|Do not announce a prefix to a AS$1
+6777:*|Announce a prefix to AS$1
+rt:0:*|Do not announce a prefix to AS$1
+rt:6777:*|Announce a prefix to AS$1
+6777:0:*|Do not announce a certain prefix to AS$1
+6777:1:*|Announce a certain prefix to AS$1
+6777:101:*|Prepend one time towards AS$1
+6777:102:*|Prepend two times towards AS$1
+6777:103:*|Prepend three times towards AS$1

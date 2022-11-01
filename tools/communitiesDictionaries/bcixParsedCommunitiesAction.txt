@@ -1,0 +1,19 @@
+0:*|do not redistribute to AS$1
+16374:*|redistribute to AS$1
+0:16374|do not redistribute to all peers
+16374:16374|redistribute to all peers
+16374:0:*|do not redistribute to AS$1
+16374:1:*|redistribute to AS$1
+16374:0:0|do not redistribute to all peers
+16374:1:0|redistribute to all peers
+16374:101:*|Prepend to peer AS once
+16374:102:*|Prepend to peer AS twice
+16374:103:*|Prepend to peer AS three times
+65535:0|graceful shutdown
+65535:1|accept own
+65535:8|accept-own-nexthop
+65535:666|blackhole
+65535:1048321|no export
+65535:1048322|no advertise
+65535:1048323|no export subconfed
+65535:1048324|nopeer

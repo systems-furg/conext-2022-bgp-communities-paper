@@ -1,0 +1,536 @@
+0:*|Do not redistribute to AS$1
+0:48793|Do not redistribute
+48793:*|Redistribute to AS$1
+65535:0|GRACEFUL_SHUTDOWN (RFC8326)
+65535:1|ACCEPT_OWN (RFC7611)
+65535:1048321|no export
+65535:1048322|no advertise
+65535:1048323|no export subconfed
+65535:1048324|nopeer
+65535:2|ROUTE_FILTER_TRANSLATED_v4
+65535:3|ROUTE_FILTER_v4
+65535:4|ROUTE_FILTER_TRANSLATED_v6
+65535:5|ROUTE_FILTER_v6
+65535:6|LLGR_STALE
+65535:65281|NO_EXPORT (RFC 1997)
+65535:65282|NO_ADVERTISE (RFC 1997)
+65535:65283|NO_EXPORT_SUBCONFED (RFC 1997)
+65535:65284|NOPEER (RFC3765)
+65535:666|BLACKHOLE (RFC7999)
+65535:7|NO_LLGR
+65535:8|accept-own-nexthop
+65221:1001|Do not redistribute to edge01.fra2
+65221:1002|Do not redistribute to edge01.fra6
+65221:1006|Do not redistribute to edge01.fra9
+65221:10073|Do not redistribute to edge01.dfw1
+65221:10104|Do not redistribute to edge02.dfw8
+65221:10123|Do not redistribute to edge01.dfw10
+65221:1082|Do not redistribute to edge02.fra12
+65221:1085|Do not redistribute to edge01.fra12
+65221:1089|Do not redistribute to edge02.fra2
+65221:1090|Do not redistribute to edge02.fra6
+65221:1102|Do not redistribute to edge02.fra9
+65221:1105|Do not redistribute to edge01.fra10
+65221:11077|Do not redistribute to edge02.mad1
+65221:11092|Do not redistribute to edge02.mad3
+65221:11103|Do not redistribute to edge01.mad4
+65221:12088|Do not redistribute to edge01.lis1
+65221:15101|Do not redistribute to edge01.ath1
+65221:17108|Do not redistribute to edge01.jhb1
+65221:17109|Do not redistribute to edge01.jhb2
+65221:18113|Do not redistribute to edge01.sin1
+65221:18114|Do not redistribute to edge02.sin1
+65221:19106|Do not redistribute to edge01.kul1
+65221:19107|Do not redistribute to edge01.kul2
+65221:2038|Do not redistribute to edge01.nyc1
+65221:2053|Do not redistribute to edge01.nyc8
+65221:2083|Do not redistribute to edge02.nyc6
+65221:2086|Do not redistribute to edge02.nyc3
+65221:2087|Do not redistribute to edge02.nyc5
+65221:21112|Do not redistribute to edge01.bwn1
+65221:2124|Do not redistribute to edge02.nyc8
+65221:2126|Do not redistribute to edge01.nyc17
+65221:2127|Do not redistribute to edge02.nyc1
+65221:2128|Do not redistribute to edge03.nyc3
+65221:22110|Do not redistribute to edge01.ord1
+65221:22111|Do not redistribute to edge01.ord2
+65221:22125|Do not redistribute to edge01.ord6
+65221:22132|Do not redistribute to edge02.ord2
+65221:23115|Do not redistribute to edge01.dtm1
+65221:24116|Do not redistribute to edge01.bcn1
+65221:25117|Do not redistribute to edge01.ric1
+65221:25118|Do not redistribute to edge01.ric2
+65221:25119|Do not redistribute to edge01.ric3
+65221:26129|Do not redistribute to edge01.cae1
+65221:27130|Do not redistribute to edge01.phx1
+65221:27131|Do not redistribute to edge01.phx2
+65221:3095|Do not redistribute to edge02.muc2
+65221:3096|Do not redistribute to edge02.muc1
+65221:4081|Do not redistribute to edge02.ham1
+65221:4122|Do not redistribute to edge03.ham1
+65221:5050|Do not redistribute to sw001.dxb1
+65221:5079|Do not redistribute to edge01.dxb1
+65221:5080|Do not redistribute to edge01.dxb2
+65221:6097|Do not redistribute to edge02.mrs1
+65221:7052|Do not redistribute to edge01.pmo1
+65221:8056|Do not redistribute to edge01.ist1
+65221:8121|Do not redistribute to edge01.ist2
+65221:9093|Do not redistribute to edge02.dus1
+48793:921:1001|Do not redistribute to edge01.fra2
+48793:921:1002|Do not redistribute to edge01.fra6
+48793:921:1006|Do not redistribute to edge01.fra9
+48793:921:10073|Do not redistribute to edge01.dfw1
+48793:921:10104|Do not redistribute to edge02.dfw8
+48793:921:10123|Do not redistribute to edge01.dfw10
+48793:921:1082|Do not redistribute to edge02.fra12
+48793:921:1085|Do not redistribute to edge01.fra12
+48793:921:1089|Do not redistribute to edge02.fra2
+48793:921:1090|Do not redistribute to edge02.fra6
+48793:921:1102|Do not redistribute to edge02.fra9
+48793:921:1105|Do not redistribute to edge01.fra10
+48793:921:11077|Do not redistribute to edge02.mad1
+48793:921:11092|Do not redistribute to edge02.mad3
+48793:921:11103|Do not redistribute to edge01.mad4
+48793:921:12088|Do not redistribute to edge01.lis1
+48793:921:15101|Do not redistribute to edge01.ath1
+48793:921:17108|Do not redistribute to edge01.jhb1
+48793:921:17109|Do not redistribute to edge01.jhb2
+48793:921:18113|Do not redistribute to edge01.sin1
+48793:921:18114|Do not redistribute to edge02.sin1
+48793:921:19106|Do not redistribute to edge01.kul1
+48793:921:19107|Do not redistribute to edge01.kul2
+48793:921:2038|Do not redistribute to edge01.nyc1
+48793:921:2053|Do not redistribute to edge01.nyc8
+48793:921:2083|Do not redistribute to edge02.nyc6
+48793:921:2086|Do not redistribute to edge02.nyc3
+48793:921:2087|Do not redistribute to edge02.nyc5
+48793:921:21112|Do not redistribute to edge01.bwn1
+48793:921:2124|Do not redistribute to edge02.nyc8
+48793:921:2126|Do not redistribute to edge01.nyc17
+48793:921:2127|Do not redistribute to edge02.nyc1
+48793:921:2128|Do not redistribute to edge03.nyc3
+48793:921:22110|Do not redistribute to edge01.ord1
+48793:921:22111|Do not redistribute to edge01.ord2
+48793:921:22125|Do not redistribute to edge01.ord6
+48793:921:22132|Do not redistribute to edge02.ord2
+48793:921:23115|Do not redistribute to edge01.dtm1
+48793:921:24116|Do not redistribute to edge01.bcn1
+48793:921:25117|Do not redistribute to edge01.ric1
+48793:921:25118|Do not redistribute to edge01.ric2
+48793:921:25119|Do not redistribute to edge01.ric3
+48793:921:26129|Do not redistribute to edge01.cae1
+48793:921:27130|Do not redistribute to edge01.phx1
+48793:921:27131|Do not redistribute to edge01.phx2
+48793:921:3095|Do not redistribute to edge02.muc2
+48793:921:3096|Do not redistribute to edge02.muc1
+48793:921:4081|Do not redistribute to edge02.ham1
+48793:921:4122|Do not redistribute to edge03.ham1
+48793:921:5050|Do not redistribute to sw001.dxb1
+48793:921:5079|Do not redistribute to edge01.dxb1
+48793:921:5080|Do not redistribute to edge01.dxb2
+48793:921:6097|Do not redistribute to edge02.mrs1
+48793:921:7052|Do not redistribute to edge01.pmo1
+48793:921:8056|Do not redistribute to edge01.ist1
+48793:921:8121|Do not redistribute to edge01.ist2
+48793:921:9093|Do not redistribute to edge02.dus1
+48793:0:*|Do not redistribute to AS$2
+48793:0:0|Do not redistribute
+48793:1:*|Redistribute to AS$2
+48793:1:0|Redistribute to all
+65222:1000|Do not redistribute to FRA
+65222:10000|Do not redistribute to DFW
+65222:11000|Do not redistribute to MAD
+65222:12000|Do not redistribute to LIS
+65222:15000|Do not redistribute to ATH
+65222:16000|Do not redistribute to ASE
+65222:17000|Do not redistribute to JHB
+65222:18000|Do not redistribute to SIN
+65222:19000|Do not redistribute to KUL
+65222:2000|Do not redistribute to NYC
+65222:20000|Do not redistribute to MAY
+65222:21000|Do not redistribute to BWN
+65222:22000|Do not redistribute to ORD
+65222:23000|Do not redistribute to DTM
+65222:24000|Do not redistribute to BCN
+65222:25000|Do not redistribute to RIC
+65222:26000|Do not redistribute to CAE
+65222:27000|Do not redistribute to PHX
+65222:3000|Do not redistribute to MUC
+65222:4000|Do not redistribute to HAM
+65222:5000|Do not redistribute to DXB
+65222:6000|Do not redistribute to MRS
+65222:7000|Do not redistribute to PMO
+65222:8000|Do not redistribute to IST
+65222:9000|Do not redistribute to DUS
+48793:922:1000|Do not redistribute to FRA
+48793:922:10000|Do not redistribute to DFW
+48793:922:11000|Do not redistribute to MAD
+48793:922:12000|Do not redistribute to LIS
+48793:922:15000|Do not redistribute to ATH
+48793:922:16000|Do not redistribute to ASE
+48793:922:17000|Do not redistribute to JHB
+48793:922:18000|Do not redistribute to SIN
+48793:922:19000|Do not redistribute to KUL
+48793:922:2000|Do not redistribute to NYC
+48793:922:20000|Do not redistribute to MAY
+48793:922:21000|Do not redistribute to BWN
+48793:922:22000|Do not redistribute to ORD
+48793:922:23000|Do not redistribute to DTM
+48793:922:24000|Do not redistribute to BCN
+48793:922:25000|Do not redistribute to RIC
+48793:922:26000|Do not redistribute to CAE
+48793:922:27000|Do not redistribute to PHX
+48793:922:3000|Do not redistribute to MUC
+48793:922:4000|Do not redistribute to HAM
+48793:922:5000|Do not redistribute to DXB
+48793:922:6000|Do not redistribute to MRS
+48793:922:7000|Do not redistribute to PMO
+48793:922:8000|Do not redistribute to IST
+48793:922:9000|Do not redistribute to DUS
+65200:65212|Redistribute to local peers (same metro) only
+48793:900:65212|Redistribute to local peers (same metro) only
+48793:912:1000|Redistribute to FRA
+48793:912:10000|Redistribute to DFW
+48793:912:11000|Redistribute to MAD
+48793:912:12000|Redistribute to LIS
+48793:912:15000|Redistribute to ATH
+48793:912:16000|Redistribute to ASE
+48793:912:17000|Redistribute to JHB
+48793:912:18000|Redistribute to SIN
+48793:912:19000|Redistribute to KUL
+48793:912:2000|Redistribute to NYC
+48793:912:20000|Redistribute to MAY
+48793:912:21000|Redistribute to BWN
+48793:912:22000|Redistribute to ORD
+48793:912:23000|Redistribute to DTM
+48793:912:24000|Redistribute to BCN
+48793:912:25000|Redistribute to RIC
+48793:912:26000|Redistribute to CAE
+48793:912:27000|Redistribute to PHX
+48793:912:3000|Redistribute to MUC
+48793:912:4000|Redistribute to HAM
+48793:912:5000|Redistribute to DXB
+48793:912:6000|Redistribute to MRS
+48793:912:7000|Redistribute to PMO
+48793:912:8000|Redistribute to IST
+48793:912:9000|Redistribute to DUS
+65223:250|Do not redistribute to France
+65223:276|Do not redistribute to Germany
+65223:300|Do not redistribute to Greece
+65223:35|Do not redistribute to ASEAN
+65223:380|Do not redistribute to Italy
+65223:458|Do not redistribute to Malaysia
+65223:620|Do not redistribute to Portugal
+65223:702|Do not redistribute to Singapore
+65223:724|Do not redistribute to Spain
+65223:784|Do not redistribute to UAE
+65223:792|Do not redistribute to Turkey
+65223:840|Do not redistribute to US
+65223:96|Do not redistribute to Brunei
+65224:142|Do not redistribute to Asia
+65224:150|Do not redistribute to Europe
+65224:19|Do not redistribute to Americas
+48793:923:250|Do not redistribute to France
+48793:923:276|Do not redistribute to Germany
+48793:923:300|Do not redistribute to Greece
+48793:923:35|Do not redistribute to ASEAN
+48793:923:380|Do not redistribute to Italy
+48793:923:458|Do not redistribute to Malaysia
+48793:923:620|Do not redistribute to Portugal
+48793:923:702|Do not redistribute to Singapore
+48793:923:724|Do not redistribute to Spain
+48793:923:784|Do not redistribute to UAE
+48793:923:792|Do not redistribute to Turkey
+48793:923:840|Do not redistribute to US
+48793:923:96|Do not redistribute to Brunei
+48793:924:142|Do not redistribute to Asia
+48793:924:150|Do not redistribute to Europe
+48793:924:19|Do not redistribute to Americas
+65213:250|Redistribute to France
+65213:276|Redistribute to Germany
+65213:300|Redistribute to Greece
+65213:35|Redistribute to ASEAN
+65213:380|Redistribute to Italy
+65213:458|Redistribute to Malaysia
+65213:620|Redistribute to Portugal
+65213:702|Redistribute to Singapore
+65213:724|Redistribute to Spain
+65213:784|Redistribute to UAE
+65213:792|Redistribute to Turkey
+65213:840|Redistribute to US
+65213:96|Redistribute to Brunei
+65214:142|Redistribute to Asia
+65214:150|Redistribute to Europe
+65214:19|Redistribute to Americas
+48793:913:250|Redistribute to France
+48793:913:276|Redistribute to Germany
+48793:913:300|Redistribute to Greece
+48793:913:35|Redistribute to ASEAN
+48793:913:380|Redistribute to Italy
+48793:913:458|Redistribute to Malaysia
+48793:913:620|Redistribute to Portugal
+48793:913:702|Redistribute to Singapore
+48793:913:724|Redistribute to Spain
+48793:913:784|Redistribute to UAE
+48793:913:792|Redistribute to Turkey
+48793:913:840|Redistribute to US
+48793:913:96|Redistribute to Brunei
+48793:914:142|Redistribute to Asia
+48793:914:150|Redistribute to Europe
+48793:914:19|Redistribute to Americas
+48793:48793|Redistribute to all
+48793:65281|Add NO_EXPORT
+48793:65282|Add NO_ADVERTISE
+48793:901:*|Add NO_EXPORT to AS$2
+48793:902:*|Add NO_ADVERTISE to AS$2
+65001:*|Prepend ASN to AS$1 once
+65001:0|Prepend ASN to all peers once
+65002:*|Prepend ASN to AS$1 twice
+65002:0|Prepend ASN to all peers twice
+65003:*|Prepend ASN to AS$1 three times
+65003:0|Prepend ASN to all peers three times
+48793:101:*|Prepend ASN to AS$2 once
+48793:101:0|Prepend ASN to all peers once
+48793:102:*|Prepend ASN to AS$2 twice
+48793:102:0|Prepend ASN to all peers twice
+48793:103:*|Prepend ASN to AS$2 three times
+48793:103:0|Prepend ASN to all peers three times
+48793:911:1001|Redistribute to edge01.fra2
+48793:911:1002|Redistribute to edge01.fra6
+48793:911:1006|Redistribute to edge01.fra9
+48793:911:10073|Redistribute to edge01.dfw1
+48793:911:10104|Redistribute to edge02.dfw8
+48793:911:10123|Redistribute to edge01.dfw10
+48793:911:1082|Redistribute to edge02.fra12
+48793:911:1085|Redistribute to edge01.fra12
+48793:911:1089|Redistribute to edge02.fra2
+48793:911:1090|Redistribute to edge02.fra6
+48793:911:1102|Redistribute to edge02.fra9
+48793:911:1105|Redistribute to edge01.fra10
+48793:911:11077|Redistribute to edge02.mad1
+48793:911:11092|Redistribute to edge02.mad3
+48793:911:11103|Redistribute to edge01.mad4
+48793:911:12088|Redistribute to edge01.lis1
+48793:911:15101|Redistribute to edge01.ath1
+48793:911:17108|Redistribute to edge01.jhb1
+48793:911:17109|Redistribute to edge01.jhb2
+48793:911:18113|Redistribute to edge01.sin1
+48793:911:18114|Redistribute to edge02.sin1
+48793:911:19106|Redistribute to edge01.kul1
+48793:911:19107|Redistribute to edge01.kul2
+48793:911:2038|Redistribute to edge01.nyc1
+48793:911:2053|Redistribute to edge01.nyc8
+48793:911:2083|Redistribute to edge02.nyc6
+48793:911:2086|Redistribute to edge02.nyc3
+48793:911:2087|Redistribute to edge02.nyc5
+48793:911:21112|Redistribute to edge01.bwn1
+48793:911:2124|Redistribute to edge02.nyc8
+48793:911:2126|Redistribute to edge01.nyc17
+48793:911:2127|Redistribute to edge02.nyc1
+48793:911:2128|Redistribute to edge03.nyc3
+48793:911:22110|Redistribute to edge01.ord1
+48793:911:22111|Redistribute to edge01.ord2
+48793:911:22125|Redistribute to edge01.ord6
+48793:911:22132|Redistribute to edge02.ord2
+48793:911:23115|Redistribute to edge01.dtm1
+48793:911:24116|Redistribute to edge01.bcn1
+48793:911:25117|Redistribute to edge01.ric1
+48793:911:25118|Redistribute to edge01.ric2
+48793:911:25119|Redistribute to edge01.ric3
+48793:911:26129|Redistribute to edge01.cae1
+48793:911:27130|Redistribute to edge01.phx1
+48793:911:27131|Redistribute to edge01.phx2
+48793:911:3095|Redistribute to edge02.muc2
+48793:911:3096|Redistribute to edge02.muc1
+48793:911:4081|Redistribute to edge02.ham1
+48793:911:4122|Redistribute to edge03.ham1
+48793:911:5050|Redistribute to sw001.dxb1
+48793:911:5079|Redistribute to edge01.dxb1
+48793:911:5080|Redistribute to edge01.dxb2
+48793:911:6097|Redistribute to edge02.mrs1
+48793:911:7052|Redistribute to edge01.pmo1
+48793:911:8056|Redistribute to edge01.ist1
+48793:911:8121|Redistribute to edge01.ist2
+48793:911:9093|Redistribute to edge02.dus1
+rt:48793:4200000000|Drop all traffic
+rt:48793:4200000001|Shape all traffic
+rt:48793:4200000002|Drop all UDP traffic
+rt:48793:4200000003|Shape all UDP traffic
+rt:48793:4200000004|Drop UDP traffic with src port 0
+rt:48793:4200000005|Shape UDP traffic with src port 0
+rt:48793:4200000006|Drop UDP traffic with src port 19
+rt:48793:4200000007|Shape UDP traffic with src port 19
+rt:48793:4200000008|Drop UDP traffic with src port 53
+rt:48793:4200000009|Shape UDP traffic with src port 53
+rt:48793:4200000010|Drop UDP traffic with src port 123
+rt:48793:4200000011|Shape UDP traffic with src port 123
+rt:48793:4200000012|Drop UDP traffic with src port 389
+rt:48793:4200000013|Shape UDP traffic with src port 389
+rt:48793:4200000014|Drop UDP traffic with src port 11211
+rt:48793:4200000015|Shape UDP traffic with src port 11211
+rt:48793:4200000016|Drop UDP traffic with src port 111
+rt:48793:4200000017|Shape UDP traffic with src port 111
+rt:48793:4200000018|Drop UDP traffic with src port 137
+rt:48793:4200000019|Shape UDP traffic with src port 137
+rt:48793:4200000020|Drop UDP traffic with src port 138
+rt:48793:4200000021|Shape UDP traffic with src port 138
+rt:48793:4200000022|Drop UDP traffic with src port 161
+rt:48793:4200000023|Shape UDP traffic with src port 161
+rt:48793:4200000024|Drop UDP traffic with src port 162
+rt:48793:4200000025|Shape UDP traffic with src port 162
+rt:48793:4200000026|Drop UDP traffic with src port 520
+rt:48793:4200000027|Shape UDP traffic with src port 520
+rt:48793:4200000028|Drop UDP traffic with src port 1434
+rt:48793:4200000029|Shape UDP traffic with src port 1434
+rt:48793:4200000030|Drop UDP traffic with src port 1701
+rt:48793:4200000031|Shape UDP traffic with src port 1701
+rt:48793:4200000032|Drop UDP traffic with src port 1900
+rt:48793:4200000033|Shape UDP traffic with src port 1900
+rt:48793:4200000034|Drop UDP traffic with src port 3283
+rt:48793:4200000035|Shape UDP traffic with src port 3283
+rt:48793:4200000036|Drop UDP traffic with src port 3702
+rt:48793:4200000037|Shape UDP traffic with src port 3702
+rt:48793:4200000038|Drop UDP traffic with src port 5353
+rt:48793:4200000039|Shape UDP traffic with src port 5353
+rt:48793:4200000040|Drop UDP traffic with dst port 25
+rt:48793:4200000041|Shape UDP traffic with dst port 25
+rt:48793:4200000042|Drop UDP traffic with dst port 69
+rt:48793:4200000043|Shape UDP traffic with dst port 69
+rt:48793:4200000044|Drop UDP traffic with dst port 80
+rt:48793:4200000045|Shape UDP traffic with dst port 80
+rt:48793:4200000046|Drop UDP traffic with dst port 443
+rt:48793:4200000047|Shape UDP traffic with dst port 443
+rt:48793:4200000048|Drop any ICMP traffic
+rt:48793:4200000049|Shape any ICMP traffic
+rt:48793:4200000050|Drop any GRE traffic
+rt:48793:4200000051|Shape any GRE traffic
+rt:48793:4200000052|Drop TCP traffic with src port 21
+rt:48793:4200000053|Shape TCP traffic with src port 21
+rt:48793:4200000054|Drop TCP traffic with src port 22
+rt:48793:4200000055|Shape TCP traffic with src port 22
+rt:48793:4200000056|Drop TCP traffic with src port 25
+rt:48793:4200000057|Shape TCP traffic with src port 25
+rt:48793:4200000058|Drop TCP traffic with src port 80
+rt:48793:4200000059|Shape TCP traffic with src port 80
+rt:48793:4200000060|Drop TCP traffic with src port 443
+rt:48793:4200000061|Shape TCP traffic with src port 443
+rt:48793:4200000062|Drop TCP traffic with src port 1900
+rt:48793:4200000063|Shape TCP traffic with src port 1900
+rt:48793:4200000064|Drop TCP traffic with src port 3389
+rt:48793:4200000065|Shape TCP traffic with src port 3389
+rt:48793:4200000066|Drop TCP traffic with src port 7547
+rt:48793:4200000067|Shape TCP traffic with src port 7547
+rt:48793:4200000068|Drop TCP traffic with src port 11211
+rt:48793:4200000069|Shape TCP traffic with src port 11211
+rt:48793:4200000070|Drop UDP traffic with dst port 33434..33529 (Traceroute)
+rt:48793:4200000071|Shape UDP traffic with dst port 33434..33529 (Traceroute)
+rt:48793:4200001000|Allow TCP traffic with dst port 20
+rt:48793:4200001001|Allow TCP traffic with dst port 21
+rt:48793:4200001002|Allow TCP traffic with dst port 22
+rt:48793:4200001003|Allow UDP traffic with dst port 22
+rt:48793:4200001004|Allow TCP traffic with dst port 23
+rt:48793:4200001005|Allow TCP traffic with dst port 25
+rt:48793:4200001006|Allow TCP traffic with dst port 53
+rt:48793:4200001007|Allow UDP traffic with dst port 53
+rt:48793:4200001008|Allow UDP traffic with dst port 69
+rt:48793:4200001009|Allow TCP traffic with dst port 80
+rt:48793:4200001010|Allow UDP traffic with dst port 80
+rt:48793:4200001011|Allow TCP traffic with dst port 110
+rt:48793:4200001012|Allow TCP traffic with dst port 119
+rt:48793:4200001013|Allow UDP traffic with dst port 123
+rt:48793:4200001014|Allow TCP traffic with dst port 143
+rt:48793:4200001015|Allow UDP traffic with dst port 143
+rt:48793:4200001016|Allow TCP traffic with dst port 161
+rt:48793:4200001017|Allow UDP traffic with dst port 161
+rt:48793:4200001018|Allow TCP traffic with dst port 162
+rt:48793:4200001019|Allow UDP traffic with dst port 162
+rt:48793:4200001020|Allow UDP traffic with dst port 443
+rt:48793:4200001021|Allow TCP traffic with dst port 443
+rt:48793:4200001022|Allow TCP traffic with dst port 989
+rt:48793:4200001023|Allow TCP traffic with dst port 990
+rt:48793:4200001024|Allow UDP traffic with dst port 3389
+rt:48793:4200001025|Allow TCP traffic with dst port 3389
+rt:48793:4200001026|Allow any ICMP traffic
+rt:48793:4200001027|Allow UDP traffic with dst port 33434..33529 (Traceroute)
+65212:1000|Redistribute to FRA
+65212:10000|Redistribute to DFW
+65212:11000|Redistribute to MAD
+65212:12000|Redistribute to LIS
+65212:15000|Redistribute to ATH
+65212:16000|Redistribute to ASE
+65212:17000|Redistribute to JHB
+65212:18000|Redistribute to SIN
+65212:19000|Redistribute to KUL
+65212:2000|Redistribute to NYC
+65212:20000|Redistribute to MAY
+65212:21000|Redistribute to BWN
+65212:22000|Redistribute to ORD
+65212:23000|Redistribute to DTM
+65212:24000|Redistribute to BCN
+65212:25000|Redistribute to RIC
+65212:26000|Redistribute to CAE
+65212:27000|Redistribute to PHX
+65212:3000|Redistribute to MUC
+65212:4000|Redistribute to HAM
+65212:5000|Redistribute to DXB
+65212:6000|Redistribute to MRS
+65212:7000|Redistribute to PMO
+65212:8000|Redistribute to IST
+65212:9000|Redistribute to DUS
+65211:1001|Redistribute to edge01.fra2
+65211:1002|Redistribute to edge01.fra6
+65211:1006|Redistribute to edge01.fra9
+65211:10073|Redistribute to edge01.dfw1
+65211:10104|Redistribute to edge02.dfw8
+65211:10123|Redistribute to edge01.dfw10
+65211:1082|Redistribute to edge02.fra12
+65211:1085|Redistribute to edge01.fra12
+65211:1089|Redistribute to edge02.fra2
+65211:1090|Redistribute to edge02.fra6
+65211:1102|Redistribute to edge02.fra9
+65211:1105|Redistribute to edge01.fra10
+65211:11077|Redistribute to edge02.mad1
+65211:11092|Redistribute to edge02.mad3
+65211:11103|Redistribute to edge01.mad4
+65211:12088|Redistribute to edge01.lis1
+65211:15101|Redistribute to edge01.ath1
+65211:17108|Redistribute to edge01.jhb1
+65211:17109|Redistribute to edge01.jhb2
+65211:18113|Redistribute to edge01.sin1
+65211:18114|Redistribute to edge02.sin1
+65211:19106|Redistribute to edge01.kul1
+65211:19107|Redistribute to edge01.kul2
+65211:2038|Redistribute to edge01.nyc1
+65211:2053|Redistribute to edge01.nyc8
+65211:2083|Redistribute to edge02.nyc6
+65211:2086|Redistribute to edge02.nyc3
+65211:2087|Redistribute to edge02.nyc5
+65211:21112|Redistribute to edge01.bwn1
+65211:2124|Redistribute to edge02.nyc8
+65211:2126|Redistribute to edge01.nyc17
+65211:2127|Redistribute to edge02.nyc1
+65211:2128|Redistribute to edge03.nyc3
+65211:22110|Redistribute to edge01.ord1
+65211:22111|Redistribute to edge01.ord2
+65211:22125|Redistribute to edge01.ord6
+65211:22132|Redistribute to edge02.ord2
+65211:23115|Redistribute to edge01.dtm1
+65211:24116|Redistribute to edge01.bcn1
+65211:25117|Redistribute to edge01.ric1
+65211:25118|Redistribute to edge01.ric2
+65211:25119|Redistribute to edge01.ric3
+65211:26129|Redistribute to edge01.cae1
+65211:27130|Redistribute to edge01.phx1
+65211:27131|Redistribute to edge01.phx2
+65211:3095|Redistribute to edge02.muc2
+65211:3096|Redistribute to edge02.muc1
+65211:4081|Redistribute to edge02.ham1
+65211:4122|Redistribute to edge03.ham1
+65211:5050|Redistribute to sw001.dxb1
+65211:5079|Redistribute to edge01.dxb1
+65211:5080|Redistribute to edge01.dxb2
+65211:6097|Redistribute to edge02.mrs1
+65211:7052|Redistribute to edge01.pmo1
+65211:8056|Redistribute to edge01.ist1
+65211:8121|Redistribute to edge01.ist2
+65211:9093|Redistribute to edge02.dus1

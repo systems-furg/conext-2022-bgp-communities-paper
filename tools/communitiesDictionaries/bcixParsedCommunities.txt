@@ -1,0 +1,50 @@
+0:*|do not redistribute to AS$1
+16374:*|redistribute to AS$1
+0:16374|do not redistribute to all peers
+16374:16374|redistribute to all peers
+16374:0:*|do not redistribute to AS$1
+16374:1:*|redistribute to AS$1
+16374:0:0|do not redistribute to all peers
+16374:1:0|redistribute to all peers
+16374:101:*|Prepend to peer AS once
+16374:102:*|Prepend to peer AS twice
+16374:103:*|Prepend to peer AS three times
+16374:1000:1|RPKI valid
+16374:1000:2|RPKI unknown
+16374:1000:3|RPKI not checked
+16374:1001:1|IRRDB VALID
+16374:1001:2|IRRDB NOT CHECKED
+16374:1001:3|IRRDB MORE SPECIFIC
+16374:1001:1000|IRRDB FILTERED LOOSE
+16374:1001:1001|IRRDB FILTERED STRICT
+16374:1001:1002|IRRDB PREFIX EMPTY
+16374:1101:1|Prefix length too long
+16374:1101:2|Prefix length too short
+16374:1101:3|An IP Bogon was detected
+16374:1101:4|AS path contains a bogon AS
+16374:1101:5|AS path too long
+16374:1101:6|AS path too short
+16374:1101:7|First AS not peer AS
+16374:1101:8|Next hop not peer IP
+16374:1101:9|IRRDB Prefix not found in AS-SET
+16374:1101:10|Origin AS not in peer AS-SET
+16374:1101:11|Prefix not found in origin AS
+16374:1101:12|Prefix is RPKI UNKNOWN
+16374:1101:13|Prefix is RPKI INVALID
+16374:1101:14|transit-free ASN in AS-Path
+16374:1101:15|Too many BGP communities set
+16374:65666:1|ip bogon detected
+65535:0|graceful shutdown
+65535:1|accept own
+65535:2|route filter translated v4
+65535:3|route filter v4
+65535:4|route filter translated v6
+65535:5|route filter v6
+65535:6|llgr stale
+65535:7|no llgr
+65535:8|accept-own-nexthop
+65535:666|blackhole
+65535:1048321|no export
+65535:1048322|no advertise
+65535:1048323|no export subconfed
+65535:1048324|nopeer

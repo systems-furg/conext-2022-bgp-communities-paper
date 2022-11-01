@@ -1,0 +1,774 @@
+0:*|Do not redistribute to AS$1
+0:63034|Do not redistribute
+63034:*|Redistribute to AS$1
+65535:0|GRACEFUL_SHUTDOWN (RFC8326)
+65535:1|ACCEPT_OWN (RFC7611)
+65535:1048321|no export
+65535:1048322|no advertise
+65535:1048323|no export subconfed
+65535:1048324|nopeer
+65535:2|ROUTE_FILTER_TRANSLATED_v4
+65535:3|ROUTE_FILTER_v4
+65535:4|ROUTE_FILTER_TRANSLATED_v6
+65535:5|ROUTE_FILTER_v6
+65535:6|LLGR_STALE
+65535:65281|NO_EXPORT (RFC 1997)
+65535:65282|NO_ADVERTISE (RFC 1997)
+65535:65283|NO_EXPORT_SUBCONFED (RFC 1997)
+65535:65284|NOPEER (RFC3765)
+65535:666|BLACKHOLE (RFC7999)
+65535:7|NO_LLGR
+65535:8|accept-own-nexthop
+65221:1001|Do not redistribute to edge01.fra2
+65221:1002|Do not redistribute to edge01.fra6
+65221:1006|Do not redistribute to edge01.fra9
+65221:10073|Do not redistribute to edge01.dfw1
+65221:10104|Do not redistribute to edge02.dfw8
+65221:10123|Do not redistribute to edge01.dfw10
+65221:1082|Do not redistribute to edge02.fra12
+65221:1085|Do not redistribute to edge01.fra12
+65221:1089|Do not redistribute to edge02.fra2
+65221:1090|Do not redistribute to edge02.fra6
+65221:1102|Do not redistribute to edge02.fra9
+65221:1105|Do not redistribute to edge01.fra10
+65221:11077|Do not redistribute to edge02.mad1
+65221:11092|Do not redistribute to edge02.mad3
+65221:11103|Do not redistribute to edge01.mad4
+65221:12088|Do not redistribute to edge01.lis1
+65221:15101|Do not redistribute to edge01.ath1
+65221:17108|Do not redistribute to edge01.jhb1
+65221:17109|Do not redistribute to edge01.jhb2
+65221:18113|Do not redistribute to edge01.sin1
+65221:18114|Do not redistribute to edge02.sin1
+65221:19106|Do not redistribute to edge01.kul1
+65221:19107|Do not redistribute to edge01.kul2
+65221:2038|Do not redistribute to edge01.nyc1
+65221:2053|Do not redistribute to edge01.nyc8
+65221:2083|Do not redistribute to edge02.nyc6
+65221:2086|Do not redistribute to edge02.nyc3
+65221:2087|Do not redistribute to edge02.nyc5
+65221:21112|Do not redistribute to edge01.bwn1
+65221:2124|Do not redistribute to edge02.nyc8
+65221:2126|Do not redistribute to edge01.nyc17
+65221:2127|Do not redistribute to edge02.nyc1
+65221:2128|Do not redistribute to edge03.nyc3
+65221:22110|Do not redistribute to edge01.ord1
+65221:22111|Do not redistribute to edge01.ord2
+65221:22125|Do not redistribute to edge01.ord6
+65221:22132|Do not redistribute to edge02.ord2
+65221:23115|Do not redistribute to edge01.dtm1
+65221:24116|Do not redistribute to edge01.bcn1
+65221:25117|Do not redistribute to edge01.ric1
+65221:25118|Do not redistribute to edge01.ric2
+65221:25119|Do not redistribute to edge01.ric3
+65221:26129|Do not redistribute to edge01.cae1
+65221:27130|Do not redistribute to edge01.phx1
+65221:27131|Do not redistribute to edge01.phx2
+65221:3095|Do not redistribute to edge02.muc2
+65221:3096|Do not redistribute to edge02.muc1
+65221:4081|Do not redistribute to edge02.ham1
+65221:4122|Do not redistribute to edge03.ham1
+65221:5050|Do not redistribute to sw001.dxb1
+65221:5079|Do not redistribute to edge01.dxb1
+65221:5080|Do not redistribute to edge01.dxb2
+65221:6097|Do not redistribute to edge02.mrs1
+65221:7052|Do not redistribute to edge01.pmo1
+65221:8056|Do not redistribute to edge01.ist1
+65221:8121|Do not redistribute to edge01.ist2
+65221:9093|Do not redistribute to edge02.dus1
+63034:921:1001|Do not redistribute to edge01.fra2
+63034:921:1002|Do not redistribute to edge01.fra6
+63034:921:1006|Do not redistribute to edge01.fra9
+63034:921:10073|Do not redistribute to edge01.dfw1
+63034:921:10104|Do not redistribute to edge02.dfw8
+63034:921:10123|Do not redistribute to edge01.dfw10
+63034:921:1082|Do not redistribute to edge02.fra12
+63034:921:1085|Do not redistribute to edge01.fra12
+63034:921:1089|Do not redistribute to edge02.fra2
+63034:921:1090|Do not redistribute to edge02.fra6
+63034:921:1102|Do not redistribute to edge02.fra9
+63034:921:1105|Do not redistribute to edge01.fra10
+63034:921:11077|Do not redistribute to edge02.mad1
+63034:921:11092|Do not redistribute to edge02.mad3
+63034:921:11103|Do not redistribute to edge01.mad4
+63034:921:12088|Do not redistribute to edge01.lis1
+63034:921:15101|Do not redistribute to edge01.ath1
+63034:921:17108|Do not redistribute to edge01.jhb1
+63034:921:17109|Do not redistribute to edge01.jhb2
+63034:921:18113|Do not redistribute to edge01.sin1
+63034:921:18114|Do not redistribute to edge02.sin1
+63034:921:19106|Do not redistribute to edge01.kul1
+63034:921:19107|Do not redistribute to edge01.kul2
+63034:921:2038|Do not redistribute to edge01.nyc1
+63034:921:2053|Do not redistribute to edge01.nyc8
+63034:921:2083|Do not redistribute to edge02.nyc6
+63034:921:2086|Do not redistribute to edge02.nyc3
+63034:921:2087|Do not redistribute to edge02.nyc5
+63034:921:21112|Do not redistribute to edge01.bwn1
+63034:921:2124|Do not redistribute to edge02.nyc8
+63034:921:2126|Do not redistribute to edge01.nyc17
+63034:921:2127|Do not redistribute to edge02.nyc1
+63034:921:2128|Do not redistribute to edge03.nyc3
+63034:921:22110|Do not redistribute to edge01.ord1
+63034:921:22111|Do not redistribute to edge01.ord2
+63034:921:22125|Do not redistribute to edge01.ord6
+63034:921:22132|Do not redistribute to edge02.ord2
+63034:921:23115|Do not redistribute to edge01.dtm1
+63034:921:24116|Do not redistribute to edge01.bcn1
+63034:921:25117|Do not redistribute to edge01.ric1
+63034:921:25118|Do not redistribute to edge01.ric2
+63034:921:25119|Do not redistribute to edge01.ric3
+63034:921:26129|Do not redistribute to edge01.cae1
+63034:921:27130|Do not redistribute to edge01.phx1
+63034:921:27131|Do not redistribute to edge01.phx2
+63034:921:3095|Do not redistribute to edge02.muc2
+63034:921:3096|Do not redistribute to edge02.muc1
+63034:921:4081|Do not redistribute to edge02.ham1
+63034:921:4122|Do not redistribute to edge03.ham1
+63034:921:5050|Do not redistribute to sw001.dxb1
+63034:921:5079|Do not redistribute to edge01.dxb1
+63034:921:5080|Do not redistribute to edge01.dxb2
+63034:921:6097|Do not redistribute to edge02.mrs1
+63034:921:7052|Do not redistribute to edge01.pmo1
+63034:921:8056|Do not redistribute to edge01.ist1
+63034:921:8121|Do not redistribute to edge01.ist2
+63034:921:9093|Do not redistribute to edge02.dus1
+63034:0:*|Do not redistribute to AS$2
+63034:0:0|Do not redistribute
+63034:1:*|Redistribute to AS$2
+63034:1:0|Redistribute to all
+65222:1000|Do not redistribute to FRA
+65222:10000|Do not redistribute to DFW
+65222:11000|Do not redistribute to MAD
+65222:12000|Do not redistribute to LIS
+65222:15000|Do not redistribute to ATH
+65222:16000|Do not redistribute to ASE
+65222:17000|Do not redistribute to JHB
+65222:18000|Do not redistribute to SIN
+65222:19000|Do not redistribute to KUL
+65222:2000|Do not redistribute to NYC
+65222:20000|Do not redistribute to MAY
+65222:21000|Do not redistribute to BWN
+65222:22000|Do not redistribute to ORD
+65222:23000|Do not redistribute to DTM
+65222:24000|Do not redistribute to BCN
+65222:25000|Do not redistribute to RIC
+65222:26000|Do not redistribute to CAE
+65222:27000|Do not redistribute to PHX
+65222:3000|Do not redistribute to MUC
+65222:4000|Do not redistribute to HAM
+65222:5000|Do not redistribute to DXB
+65222:6000|Do not redistribute to MRS
+65222:7000|Do not redistribute to PMO
+65222:8000|Do not redistribute to IST
+65222:9000|Do not redistribute to DUS
+63034:922:1000|Do not redistribute to FRA
+63034:922:10000|Do not redistribute to DFW
+63034:922:11000|Do not redistribute to MAD
+63034:922:12000|Do not redistribute to LIS
+63034:922:15000|Do not redistribute to ATH
+63034:922:16000|Do not redistribute to ASE
+63034:922:17000|Do not redistribute to JHB
+63034:922:18000|Do not redistribute to SIN
+63034:922:19000|Do not redistribute to KUL
+63034:922:2000|Do not redistribute to NYC
+63034:922:20000|Do not redistribute to MAY
+63034:922:21000|Do not redistribute to BWN
+63034:922:22000|Do not redistribute to ORD
+63034:922:23000|Do not redistribute to DTM
+63034:922:24000|Do not redistribute to BCN
+63034:922:25000|Do not redistribute to RIC
+63034:922:26000|Do not redistribute to CAE
+63034:922:27000|Do not redistribute to PHX
+63034:922:3000|Do not redistribute to MUC
+63034:922:4000|Do not redistribute to HAM
+63034:922:5000|Do not redistribute to DXB
+63034:922:6000|Do not redistribute to MRS
+63034:922:7000|Do not redistribute to PMO
+63034:922:8000|Do not redistribute to IST
+63034:922:9000|Do not redistribute to DUS
+65200:65212|Redistribute to local peers (same metro) only
+63034:900:65212|Redistribute to local peers (same metro) only
+63034:912:1000|Redistribute to FRA
+63034:912:10000|Redistribute to DFW
+63034:912:11000|Redistribute to MAD
+63034:912:12000|Redistribute to LIS
+63034:912:15000|Redistribute to ATH
+63034:912:16000|Redistribute to ASE
+63034:912:17000|Redistribute to JHB
+63034:912:18000|Redistribute to SIN
+63034:912:19000|Redistribute to KUL
+63034:912:2000|Redistribute to NYC
+63034:912:20000|Redistribute to MAY
+63034:912:21000|Redistribute to BWN
+63034:912:22000|Redistribute to ORD
+63034:912:23000|Redistribute to DTM
+63034:912:24000|Redistribute to BCN
+63034:912:25000|Redistribute to RIC
+63034:912:26000|Redistribute to CAE
+63034:912:27000|Redistribute to PHX
+63034:912:3000|Redistribute to MUC
+63034:912:4000|Redistribute to HAM
+63034:912:5000|Redistribute to DXB
+63034:912:6000|Redistribute to MRS
+63034:912:7000|Redistribute to PMO
+63034:912:8000|Redistribute to IST
+63034:912:9000|Redistribute to DUS
+65223:250|Do not redistribute to France
+65223:276|Do not redistribute to Germany
+65223:300|Do not redistribute to Greece
+65223:35|Do not redistribute to ASEAN
+65223:380|Do not redistribute to Italy
+65223:458|Do not redistribute to Malaysia
+65223:620|Do not redistribute to Portugal
+65223:702|Do not redistribute to Singapore
+65223:724|Do not redistribute to Spain
+65223:784|Do not redistribute to UAE
+65223:792|Do not redistribute to Turkey
+65223:840|Do not redistribute to US
+65223:96|Do not redistribute to Brunei
+65224:142|Do not redistribute to Asia
+65224:150|Do not redistribute to Europe
+65224:19|Do not redistribute to Americas
+63034:923:250|Do not redistribute to France
+63034:923:276|Do not redistribute to Germany
+63034:923:300|Do not redistribute to Greece
+63034:923:35|Do not redistribute to ASEAN
+63034:923:380|Do not redistribute to Italy
+63034:923:458|Do not redistribute to Malaysia
+63034:923:620|Do not redistribute to Portugal
+63034:923:702|Do not redistribute to Singapore
+63034:923:724|Do not redistribute to Spain
+63034:923:784|Do not redistribute to UAE
+63034:923:792|Do not redistribute to Turkey
+63034:923:840|Do not redistribute to US
+63034:923:96|Do not redistribute to Brunei
+63034:924:142|Do not redistribute to Asia
+63034:924:150|Do not redistribute to Europe
+63034:924:19|Do not redistribute to Americas
+65213:250|Redistribute to France
+65213:276|Redistribute to Germany
+65213:300|Redistribute to Greece
+65213:35|Redistribute to ASEAN
+65213:380|Redistribute to Italy
+65213:458|Redistribute to Malaysia
+65213:620|Redistribute to Portugal
+65213:702|Redistribute to Singapore
+65213:724|Redistribute to Spain
+65213:784|Redistribute to UAE
+65213:792|Redistribute to Turkey
+65213:840|Redistribute to US
+65213:96|Redistribute to Brunei
+65214:142|Redistribute to Asia
+65214:150|Redistribute to Europe
+65214:19|Redistribute to Americas
+63034:913:250|Redistribute to France
+63034:913:276|Redistribute to Germany
+63034:913:300|Redistribute to Greece
+63034:913:35|Redistribute to ASEAN
+63034:913:380|Redistribute to Italy
+63034:913:458|Redistribute to Malaysia
+63034:913:620|Redistribute to Portugal
+63034:913:702|Redistribute to Singapore
+63034:913:724|Redistribute to Spain
+63034:913:784|Redistribute to UAE
+63034:913:792|Redistribute to Turkey
+63034:913:840|Redistribute to US
+63034:913:96|Redistribute to Brunei
+63034:914:142|Redistribute to Asia
+63034:914:150|Redistribute to Europe
+63034:914:19|Redistribute to Americas
+63034:63034|Redistribute to all
+63034:65281|Add NO_EXPORT
+63034:65282|Add NO_ADVERTISE
+63034:901:*|Add NO_EXPORT to AS$2
+63034:902:*|Add NO_ADVERTISE to AS$2
+65001:*|Prepend ASN to AS$1 once
+65001:0|Prepend ASN to all peers once
+65002:*|Prepend ASN to AS$1 twice
+65002:0|Prepend ASN to all peers twice
+65003:*|Prepend ASN to AS$1 three times
+65003:0|Prepend ASN to all peers three times
+63034:101:*|Prepend ASN to AS$2 once
+63034:101:0|Prepend ASN to all peers once
+63034:102:*|Prepend ASN to AS$2 twice
+63034:102:0|Prepend ASN to all peers twice
+63034:103:*|Prepend ASN to AS$2 three times
+63034:103:0|Prepend ASN to all peers three times
+63034:911:1001|Redistribute to edge01.fra2
+63034:911:1002|Redistribute to edge01.fra6
+63034:911:1006|Redistribute to edge01.fra9
+63034:911:10073|Redistribute to edge01.dfw1
+63034:911:10104|Redistribute to edge02.dfw8
+63034:911:10123|Redistribute to edge01.dfw10
+63034:911:1082|Redistribute to edge02.fra12
+63034:911:1085|Redistribute to edge01.fra12
+63034:911:1089|Redistribute to edge02.fra2
+63034:911:1090|Redistribute to edge02.fra6
+63034:911:1102|Redistribute to edge02.fra9
+63034:911:1105|Redistribute to edge01.fra10
+63034:911:11077|Redistribute to edge02.mad1
+63034:911:11092|Redistribute to edge02.mad3
+63034:911:11103|Redistribute to edge01.mad4
+63034:911:12088|Redistribute to edge01.lis1
+63034:911:15101|Redistribute to edge01.ath1
+63034:911:17108|Redistribute to edge01.jhb1
+63034:911:17109|Redistribute to edge01.jhb2
+63034:911:18113|Redistribute to edge01.sin1
+63034:911:18114|Redistribute to edge02.sin1
+63034:911:19106|Redistribute to edge01.kul1
+63034:911:19107|Redistribute to edge01.kul2
+63034:911:2038|Redistribute to edge01.nyc1
+63034:911:2053|Redistribute to edge01.nyc8
+63034:911:2083|Redistribute to edge02.nyc6
+63034:911:2086|Redistribute to edge02.nyc3
+63034:911:2087|Redistribute to edge02.nyc5
+63034:911:21112|Redistribute to edge01.bwn1
+63034:911:2124|Redistribute to edge02.nyc8
+63034:911:2126|Redistribute to edge01.nyc17
+63034:911:2127|Redistribute to edge02.nyc1
+63034:911:2128|Redistribute to edge03.nyc3
+63034:911:22110|Redistribute to edge01.ord1
+63034:911:22111|Redistribute to edge01.ord2
+63034:911:22125|Redistribute to edge01.ord6
+63034:911:22132|Redistribute to edge02.ord2
+63034:911:23115|Redistribute to edge01.dtm1
+63034:911:24116|Redistribute to edge01.bcn1
+63034:911:25117|Redistribute to edge01.ric1
+63034:911:25118|Redistribute to edge01.ric2
+63034:911:25119|Redistribute to edge01.ric3
+63034:911:26129|Redistribute to edge01.cae1
+63034:911:27130|Redistribute to edge01.phx1
+63034:911:27131|Redistribute to edge01.phx2
+63034:911:3095|Redistribute to edge02.muc2
+63034:911:3096|Redistribute to edge02.muc1
+63034:911:4081|Redistribute to edge02.ham1
+63034:911:4122|Redistribute to edge03.ham1
+63034:911:5050|Redistribute to sw001.dxb1
+63034:911:5079|Redistribute to edge01.dxb1
+63034:911:5080|Redistribute to edge01.dxb2
+63034:911:6097|Redistribute to edge02.mrs1
+63034:911:7052|Redistribute to edge01.pmo1
+63034:911:8056|Redistribute to edge01.ist1
+63034:911:8121|Redistribute to edge01.ist2
+63034:911:9093|Redistribute to edge02.dus1
+rt:63034:4200000000|Drop all traffic
+rt:63034:4200000001|Shape all traffic
+rt:63034:4200000002|Drop all UDP traffic
+rt:63034:4200000003|Shape all UDP traffic
+rt:63034:4200000004|Drop UDP traffic with src port 0
+rt:63034:4200000005|Shape UDP traffic with src port 0
+rt:63034:4200000006|Drop UDP traffic with src port 19
+rt:63034:4200000007|Shape UDP traffic with src port 19
+rt:63034:4200000008|Drop UDP traffic with src port 53
+rt:63034:4200000009|Shape UDP traffic with src port 53
+rt:63034:4200000010|Drop UDP traffic with src port 123
+rt:63034:4200000011|Shape UDP traffic with src port 123
+rt:63034:4200000012|Drop UDP traffic with src port 389
+rt:63034:4200000013|Shape UDP traffic with src port 389
+rt:63034:4200000014|Drop UDP traffic with src port 11211
+rt:63034:4200000015|Shape UDP traffic with src port 11211
+rt:63034:4200000016|Drop UDP traffic with src port 111
+rt:63034:4200000017|Shape UDP traffic with src port 111
+rt:63034:4200000018|Drop UDP traffic with src port 137
+rt:63034:4200000019|Shape UDP traffic with src port 137
+rt:63034:4200000020|Drop UDP traffic with src port 138
+rt:63034:4200000021|Shape UDP traffic with src port 138
+rt:63034:4200000022|Drop UDP traffic with src port 161
+rt:63034:4200000023|Shape UDP traffic with src port 161
+rt:63034:4200000024|Drop UDP traffic with src port 162
+rt:63034:4200000025|Shape UDP traffic with src port 162
+rt:63034:4200000026|Drop UDP traffic with src port 520
+rt:63034:4200000027|Shape UDP traffic with src port 520
+rt:63034:4200000028|Drop UDP traffic with src port 1434
+rt:63034:4200000029|Shape UDP traffic with src port 1434
+rt:63034:4200000030|Drop UDP traffic with src port 1701
+rt:63034:4200000031|Shape UDP traffic with src port 1701
+rt:63034:4200000032|Drop UDP traffic with src port 1900
+rt:63034:4200000033|Shape UDP traffic with src port 1900
+rt:63034:4200000034|Drop UDP traffic with src port 3283
+rt:63034:4200000035|Shape UDP traffic with src port 3283
+rt:63034:4200000036|Drop UDP traffic with src port 3702
+rt:63034:4200000037|Shape UDP traffic with src port 3702
+rt:63034:4200000038|Drop UDP traffic with src port 5353
+rt:63034:4200000039|Shape UDP traffic with src port 5353
+rt:63034:4200000040|Drop UDP traffic with dst port 25
+rt:63034:4200000041|Shape UDP traffic with dst port 25
+rt:63034:4200000042|Drop UDP traffic with dst port 69
+rt:63034:4200000043|Shape UDP traffic with dst port 69
+rt:63034:4200000044|Drop UDP traffic with dst port 80
+rt:63034:4200000045|Shape UDP traffic with dst port 80
+rt:63034:4200000046|Drop UDP traffic with dst port 443
+rt:63034:4200000047|Shape UDP traffic with dst port 443
+rt:63034:4200000048|Drop any ICMP traffic
+rt:63034:4200000049|Shape any ICMP traffic
+rt:63034:4200000050|Drop any GRE traffic
+rt:63034:4200000051|Shape any GRE traffic
+rt:63034:4200000052|Drop TCP traffic with src port 21
+rt:63034:4200000053|Shape TCP traffic with src port 21
+rt:63034:4200000054|Drop TCP traffic with src port 22
+rt:63034:4200000055|Shape TCP traffic with src port 22
+rt:63034:4200000056|Drop TCP traffic with src port 25
+rt:63034:4200000057|Shape TCP traffic with src port 25
+rt:63034:4200000058|Drop TCP traffic with src port 80
+rt:63034:4200000059|Shape TCP traffic with src port 80
+rt:63034:4200000060|Drop TCP traffic with src port 443
+rt:63034:4200000061|Shape TCP traffic with src port 443
+rt:63034:4200000062|Drop TCP traffic with src port 1900
+rt:63034:4200000063|Shape TCP traffic with src port 1900
+rt:63034:4200000064|Drop TCP traffic with src port 3389
+rt:63034:4200000065|Shape TCP traffic with src port 3389
+rt:63034:4200000066|Drop TCP traffic with src port 7547
+rt:63034:4200000067|Shape TCP traffic with src port 7547
+rt:63034:4200000068|Drop TCP traffic with src port 11211
+rt:63034:4200000069|Shape TCP traffic with src port 11211
+rt:63034:4200000070|Drop UDP traffic with dst port 33434..33529 (Traceroute)
+rt:63034:4200000071|Shape UDP traffic with dst port 33434..33529 (Traceroute)
+rt:63034:4200001000|Allow TCP traffic with dst port 20
+rt:63034:4200001001|Allow TCP traffic with dst port 21
+rt:63034:4200001002|Allow TCP traffic with dst port 22
+rt:63034:4200001003|Allow UDP traffic with dst port 22
+rt:63034:4200001004|Allow TCP traffic with dst port 23
+rt:63034:4200001005|Allow TCP traffic with dst port 25
+rt:63034:4200001006|Allow TCP traffic with dst port 53
+rt:63034:4200001007|Allow UDP traffic with dst port 53
+rt:63034:4200001008|Allow UDP traffic with dst port 69
+rt:63034:4200001009|Allow TCP traffic with dst port 80
+rt:63034:4200001010|Allow UDP traffic with dst port 80
+rt:63034:4200001011|Allow TCP traffic with dst port 110
+rt:63034:4200001012|Allow TCP traffic with dst port 119
+rt:63034:4200001013|Allow UDP traffic with dst port 123
+rt:63034:4200001014|Allow TCP traffic with dst port 143
+rt:63034:4200001015|Allow UDP traffic with dst port 143
+rt:63034:4200001016|Allow TCP traffic with dst port 161
+rt:63034:4200001017|Allow UDP traffic with dst port 161
+rt:63034:4200001018|Allow TCP traffic with dst port 162
+rt:63034:4200001019|Allow UDP traffic with dst port 162
+rt:63034:4200001020|Allow UDP traffic with dst port 443
+rt:63034:4200001021|Allow TCP traffic with dst port 443
+rt:63034:4200001022|Allow TCP traffic with dst port 989
+rt:63034:4200001023|Allow TCP traffic with dst port 990
+rt:63034:4200001024|Allow UDP traffic with dst port 3389
+rt:63034:4200001025|Allow TCP traffic with dst port 3389
+rt:63034:4200001026|Allow any ICMP traffic
+rt:63034:4200001027|Allow UDP traffic with dst port 33434..33529 (Traceroute)
+65212:1000|Redistribute to FRA
+65212:10000|Redistribute to DFW
+65212:11000|Redistribute to MAD
+65212:12000|Redistribute to LIS
+65212:15000|Redistribute to ATH
+65212:16000|Redistribute to ASE
+65212:17000|Redistribute to JHB
+65212:18000|Redistribute to SIN
+65212:19000|Redistribute to KUL
+65212:2000|Redistribute to NYC
+65212:20000|Redistribute to MAY
+65212:21000|Redistribute to BWN
+65212:22000|Redistribute to ORD
+65212:23000|Redistribute to DTM
+65212:24000|Redistribute to BCN
+65212:25000|Redistribute to RIC
+65212:26000|Redistribute to CAE
+65212:27000|Redistribute to PHX
+65212:3000|Redistribute to MUC
+65212:4000|Redistribute to HAM
+65212:5000|Redistribute to DXB
+65212:6000|Redistribute to MRS
+65212:7000|Redistribute to PMO
+65212:8000|Redistribute to IST
+65212:9000|Redistribute to DUS
+65211:1001|Redistribute to edge01.fra2
+65211:1002|Redistribute to edge01.fra6
+65211:1006|Redistribute to edge01.fra9
+65211:10073|Redistribute to edge01.dfw1
+65211:10104|Redistribute to edge02.dfw8
+65211:10123|Redistribute to edge01.dfw10
+65211:1082|Redistribute to edge02.fra12
+65211:1085|Redistribute to edge01.fra12
+65211:1089|Redistribute to edge02.fra2
+65211:1090|Redistribute to edge02.fra6
+65211:1102|Redistribute to edge02.fra9
+65211:1105|Redistribute to edge01.fra10
+65211:11077|Redistribute to edge02.mad1
+65211:11092|Redistribute to edge02.mad3
+65211:11103|Redistribute to edge01.mad4
+65211:12088|Redistribute to edge01.lis1
+65211:15101|Redistribute to edge01.ath1
+65211:17108|Redistribute to edge01.jhb1
+65211:17109|Redistribute to edge01.jhb2
+65211:18113|Redistribute to edge01.sin1
+65211:18114|Redistribute to edge02.sin1
+65211:19106|Redistribute to edge01.kul1
+65211:19107|Redistribute to edge01.kul2
+65211:2038|Redistribute to edge01.nyc1
+65211:2053|Redistribute to edge01.nyc8
+65211:2083|Redistribute to edge02.nyc6
+65211:2086|Redistribute to edge02.nyc3
+65211:2087|Redistribute to edge02.nyc5
+65211:21112|Redistribute to edge01.bwn1
+65211:2124|Redistribute to edge02.nyc8
+65211:2126|Redistribute to edge01.nyc17
+65211:2127|Redistribute to edge02.nyc1
+65211:2128|Redistribute to edge03.nyc3
+65211:22110|Redistribute to edge01.ord1
+65211:22111|Redistribute to edge01.ord2
+65211:22125|Redistribute to edge01.ord6
+65211:22132|Redistribute to edge02.ord2
+65211:23115|Redistribute to edge01.dtm1
+65211:24116|Redistribute to edge01.bcn1
+65211:25117|Redistribute to edge01.ric1
+65211:25118|Redistribute to edge01.ric2
+65211:25119|Redistribute to edge01.ric3
+65211:26129|Redistribute to edge01.cae1
+65211:27130|Redistribute to edge01.phx1
+65211:27131|Redistribute to edge01.phx2
+65211:3095|Redistribute to edge02.muc2
+65211:3096|Redistribute to edge02.muc1
+65211:4081|Redistribute to edge02.ham1
+65211:4122|Redistribute to edge03.ham1
+65211:5050|Redistribute to sw001.dxb1
+65211:5079|Redistribute to edge01.dxb1
+65211:5080|Redistribute to edge01.dxb2
+65211:6097|Redistribute to edge02.mrs1
+65211:7052|Redistribute to edge01.pmo1
+65211:8056|Redistribute to edge01.ist1
+65211:8121|Redistribute to edge01.ist2
+65211:9093|Redistribute to edge02.dus1
+65101:1001|edge01.fra2
+65101:1002|edge01.fra6
+65101:1006|edge01.fra9
+65101:10073|edge01.dfw1
+65101:10104|edge02.dfw8
+65101:10123|edge01.dfw10
+65101:1082|edge02.fra12
+65101:1085|edge01.fra12
+65101:1089|edge02.fra2
+65101:1090|edge02.fra6
+65101:1102|edge02.fra9
+65101:1105|edge01.fra10
+65101:11077|edge02.mad1
+65101:11092|edge02.mad3
+65101:11103|edge01.mad4
+65101:12088|edge01.lis1
+65101:15101|edge01.ath1
+65101:17108|edge01.jhb1
+65101:17109|edge01.jhb2
+65101:18113|edge01.sin1
+65101:18114|edge02.sin1
+65101:19106|edge01.kul1
+65101:19107|edge01.kul2
+65101:2038|edge01.nyc1
+65101:2053|edge01.nyc8
+65101:2083|edge02.nyc6
+65101:2086|edge02.nyc3
+65101:2087|edge02.nyc5
+65101:21112|edge01.bwn1
+65101:2124|edge02.nyc8
+65101:2126|edge01.nyc17
+65101:2127|edge02.nyc1
+65101:2128|edge03.nyc3
+65101:22110|edge01.ord1
+65101:22111|edge01.ord2
+65101:22125|edge01.ord6
+65101:22132|edge02.ord2
+65101:23115|edge01.dtm1
+65101:24116|edge01.bcn1
+65101:25117|edge01.ric1
+65101:25118|edge01.ric2
+65101:25119|edge01.ric3
+65101:26129|edge01.cae1
+65101:27130|edge01.phx1
+65101:27131|edge01.phx2
+65101:3095|edge02.muc2
+65101:3096|edge02.muc1
+65101:4081|edge02.ham1
+65101:4122|edge03.ham1
+65101:5050|sw001.dxb1
+65101:5079|edge01.dxb1
+65101:5080|edge01.dxb2
+65101:6097|edge02.mrs1
+65101:65535|Unknown Switch
+65101:7052|edge01.pmo1
+65101:8056|edge01.ist1
+65101:8121|edge01.ist2
+65101:9093|edge02.dus1
+65102:0|Error resolving Metro
+65102:1000|FRA
+65102:10000|DFW
+65102:11000|MAD
+65102:12000|LIS
+65102:15000|ATH
+65102:16000|ASE
+65102:17000|JHB
+65102:18000|SIN
+65102:19000|KUL
+65102:2000|NYC
+65102:20000|MAY
+65102:21000|BWN
+65102:22000|ORD
+65102:23000|DTM
+65102:24000|BCN
+65102:25000|RIC
+65102:26000|CAE
+65102:27000|PHX
+65102:3000|MUC
+65102:4000|HAM
+65102:5000|DXB
+65102:6000|MRS
+65102:65535|Unknown Metro
+65102:7000|PMO
+65102:8000|IST
+65102:9000|DUS
+65103:0|Error resolving Country/Region
+65103:250|France
+65103:276|Germany
+65103:300|Greece
+65103:35|ASEAN
+65103:380|Italy
+65103:458|Malaysia
+65103:620|Portugal
+65103:65535|Unknown Country/Region
+65103:702|Singapore
+65103:724|Spain
+65103:784|UAE
+65103:792|Turkey
+65103:840|US
+65103:96|Brunei
+65104:0|Error resolving Continent
+65104:142|Asia
+65104:150|Europe
+65104:19|Americas
+65104:65535|Unknown Continent
+63034:1000:1|RPKI Valid
+63034:1000:2|RPKI Unknown
+63034:1000:3|RPKI not checked
+63034:1001:1|IRRDB valid
+63034:1001:2|IRRDB not checked
+63034:1101:10|IRRDB lookup: AS-SET does not include origin AS
+63034:1101:101|Prefix too specific (> /24)
+63034:1101:102|Prefix too unspecific (< /8)
+63034:1101:103|Prefix too specific (> /48)
+63034:1101:104|Prefix too unspecific (< /19)
+63034:1101:105|DE-CIX Peering LAN hijack
+63034:1101:106|Not a blackhole (neither BH next-hop nor BLACKHOLE set)
+63034:1101:107|Bogon prefix (unallocated network)
+63034:1101:11|IRRDB lookup: Unable to resolve prefix for origin AS
+63034:1101:13|RPKI Invalid
+63034:1101:14|"Never via route servers"
+63034:1101:3|Bogon prefix (RFC1918 network)
+63034:1101:4|AS path contains bogon ASN
+63034:1101:5|AS path too long (> 32)
+63034:1101:7|First ASN in AS path does not equal peer ASN
+63034:1101:8|BGP next-hop does not equal peer IP
+63034:1102:15|Too many BGP Communities
+63034:1900:1|RPKI origin valid
+63034:1900:2|RPKI origin invalid
+63034:1900:3|RPKI origin not checked
+63034:1900:4|RPKI maxLength valid
+63034:1900:5|RPKI maxLength invalid
+63034:1900:6|RPKI maxLength not checked
+63034:1900:99|RPKI validation failed
+63034:1902:*|Sender chose to exclude AS$2 from redistribution
+63034:1902:*|Sender chose to exclude this peer from redistribution
+63034:1902:0|Sender chose to restrict redistribution
+63034:1902:65281|NO_EXPORT (RFC 1997)
+63034:1902:65282|NO_ADVERTISE (RFC 1997)
+63034:1903:1000|Sender chose to exclude metro FRA from redistribution
+63034:1903:10000|Sender chose to exclude metro DFW from redistribution
+63034:1903:1001|Sender chose to exclude node edge01.fra2 from redistribution
+63034:1903:1002|Sender chose to exclude node edge01.fra6 from redistribution
+63034:1903:1006|Sender chose to exclude node edge01.fra9 from redistribution
+63034:1903:10073|Sender chose to exclude node edge01.dfw1 from redistribution
+63034:1903:10104|Sender chose to exclude node edge02.dfw8 from redistribution
+63034:1903:10123|Sender chose to exclude node edge01.dfw10 from redistribution
+63034:1903:1082|Sender chose to exclude node edge02.fra12 from redistribution
+63034:1903:1085|Sender chose to exclude node edge01.fra12 from redistribution
+63034:1903:1089|Sender chose to exclude node edge02.fra2 from redistribution
+63034:1903:1090|Sender chose to exclude node edge02.fra6 from redistribution
+63034:1903:11000|Sender chose to exclude metro MAD from redistribution
+63034:1903:1102|Sender chose to exclude node edge02.fra9 from redistribution
+63034:1903:1105|Sender chose to exclude node edge01.fra10 from redistribution
+63034:1903:11077|Sender chose to exclude node edge02.mad1 from redistribution
+63034:1903:11092|Sender chose to exclude node edge02.mad3 from redistribution
+63034:1903:11103|Sender chose to exclude node edge01.mad4 from redistribution
+63034:1903:12000|Sender chose to exclude metro LIS from redistribution
+63034:1903:12088|Sender chose to exclude node edge01.lis1 from redistribution
+63034:1903:142|Sender chose to exclude continent Asia from redistribution
+63034:1903:150|Sender chose to exclude continent Europe from redistribution
+63034:1903:15000|Sender chose to exclude metro ATH from redistribution
+63034:1903:15101|Sender chose to exclude node edge01.ath1 from redistribution
+63034:1903:16000|Sender chose to exclude metro ASE from redistribution
+63034:1903:17000|Sender chose to exclude metro JHB from redistribution
+63034:1903:17108|Sender chose to exclude node edge01.jhb1 from redistribution
+63034:1903:17109|Sender chose to exclude node edge01.jhb2 from redistribution
+63034:1903:18000|Sender chose to exclude metro SIN from redistribution
+63034:1903:18113|Sender chose to exclude node edge01.sin1 from redistribution
+63034:1903:18114|Sender chose to exclude node edge02.sin1 from redistribution
+63034:1903:19|Sender chose to exclude continent Americas from redistribution
+63034:1903:19000|Sender chose to exclude metro KUL from redistribution
+63034:1903:19106|Sender chose to exclude node edge01.kul1 from redistribution
+63034:1903:19107|Sender chose to exclude node edge01.kul2 from redistribution
+63034:1903:2000|Sender chose to exclude metro NYC from redistribution
+63034:1903:20000|Sender chose to exclude metro MAY from redistribution
+63034:1903:2038|Sender chose to exclude node edge01.nyc1 from redistribution
+63034:1903:2053|Sender chose to exclude node edge01.nyc8 from redistribution
+63034:1903:2083|Sender chose to exclude node edge02.nyc6 from redistribution
+63034:1903:2086|Sender chose to exclude node edge02.nyc3 from redistribution
+63034:1903:2087|Sender chose to exclude node edge02.nyc5 from redistribution
+63034:1903:21000|Sender chose to exclude metro BWN from redistribution
+63034:1903:21112|Sender chose to exclude node edge01.bwn1 from redistribution
+63034:1903:2124|Sender chose to exclude node edge02.nyc8 from redistribution
+63034:1903:2126|Sender chose to exclude node edge01.nyc17 from redistribution
+63034:1903:2127|Sender chose to exclude node edge02.nyc1 from redistribution
+63034:1903:2128|Sender chose to exclude node edge03.nyc3 from redistribution
+63034:1903:22000|Sender chose to exclude metro ORD from redistribution
+63034:1903:22110|Sender chose to exclude node edge01.ord1 from redistribution
+63034:1903:22111|Sender chose to exclude node edge01.ord2 from redistribution
+63034:1903:22125|Sender chose to exclude node edge01.ord6 from redistribution
+63034:1903:22132|Sender chose to exclude node edge02.ord2 from redistribution
+63034:1903:23000|Sender chose to exclude metro DTM from redistribution
+63034:1903:23115|Sender chose to exclude node edge01.dtm1 from redistribution
+63034:1903:24000|Sender chose to exclude metro BCN from redistribution
+63034:1903:24116|Sender chose to exclude node edge01.bcn1 from redistribution
+63034:1903:250|Sender chose to exclude country/region France from redistribution
+63034:1903:25000|Sender chose to exclude metro RIC from redistribution
+63034:1903:25117|Sender chose to exclude node edge01.ric1 from redistribution
+63034:1903:25118|Sender chose to exclude node edge01.ric2 from redistribution
+63034:1903:25119|Sender chose to exclude node edge01.ric3 from redistribution
+63034:1903:26000|Sender chose to exclude metro CAE from redistribution
+63034:1903:26129|Sender chose to exclude node edge01.cae1 from redistribution
+63034:1903:27000|Sender chose to exclude metro PHX from redistribution
+63034:1903:27130|Sender chose to exclude node edge01.phx1 from redistribution
+63034:1903:27131|Sender chose to exclude node edge01.phx2 from redistribution
+63034:1903:276|Sender chose to exclude country/region Germany from redistribution
+63034:1903:300|Sender chose to exclude country/region Greece from redistribution
+63034:1903:3000|Sender chose to exclude metro MUC from redistribution
+63034:1903:3095|Sender chose to exclude node edge02.muc2 from redistribution
+63034:1903:3096|Sender chose to exclude node edge02.muc1 from redistribution
+63034:1903:35|Sender chose to exclude country/region ASEAN from redistribution
+63034:1903:380|Sender chose to exclude country/region Italy from redistribution
+63034:1903:4000|Sender chose to exclude metro HAM from redistribution
+63034:1903:4081|Sender chose to exclude node edge02.ham1 from redistribution
+63034:1903:4122|Sender chose to exclude node edge03.ham1 from redistribution
+63034:1903:458|Sender chose to exclude country/region Malaysia from redistribution
+63034:1903:5000|Sender chose to exclude metro DXB from redistribution
+63034:1903:5050|Sender chose to exclude node sw001.dxb1 from redistribution
+63034:1903:5079|Sender chose to exclude node edge01.dxb1 from redistribution
+63034:1903:5080|Sender chose to exclude node edge01.dxb2 from redistribution
+63034:1903:6000|Sender chose to exclude metro MRS from redistribution
+63034:1903:6097|Sender chose to exclude node edge02.mrs1 from redistribution
+63034:1903:620|Sender chose to exclude country/region Portugal from redistribution
+63034:1903:65212|Sender chose to redistribute to local (same metro) peers only
+63034:1903:7000|Sender chose to exclude metro PMO from redistribution
+63034:1903:702|Sender chose to exclude country/region Singapore from redistribution
+63034:1903:7052|Sender chose to exclude node edge01.pmo1 from redistribution
+63034:1903:724|Sender chose to exclude country/region Spain from redistribution
+63034:1903:784|Sender chose to exclude country/region UAE from redistribution
+63034:1903:792|Sender chose to exclude country/region Turkey from redistribution
+63034:1903:8000|Sender chose to exclude metro IST from redistribution
+63034:1903:8056|Sender chose to exclude node edge01.ist1 from redistribution
+63034:1903:8121|Sender chose to exclude node edge01.ist2 from redistribution
+63034:1903:840|Sender chose to exclude country/region US from redistribution
+63034:1903:9000|Sender chose to exclude metro DUS from redistribution
+63034:1903:9093|Sender chose to exclude node edge02.dus1 from redistribution
+63034:1903:96|Sender chose to exclude country/region Brunei from redistribution

@@ -1,0 +1,67 @@
+52005:65667:1|The target peer policy is Fairly-open and the sender ASN is an exception
+52005:65667:2|The target peer policy is Selective and the sender ASN is no exception
+52005:65667:3|The target peer policy is set to restrictive
+52005:65667:4|The sender has specifically refused export to the target peer, either through sending 65000:AS, or through the portal
+52005:65667:5|The sender has refused export to all peers and the target is no exception, either through sending 65000:0, or through the portal
+52005:65667:6|The Sender has set (peerRTTHigherDeny:ms) and the targets RTT ms >= then the ms in the community
+52005:65667:7|The Sender has set (peerRTTLowerDeny:ms) and the targets RTT ms <= then the ms in the community
+0:*|Do not announce to AS$1
+0:52005|Do not announce to any
+52005:*|Announce to AS$1
+52005:0:*|Do not announce to AS$1
+52005:0:0|Do not announce to any
+52005:1:*|Announce to AS$1
+52005:1000:1|RPKI Valid
+52005:1000:2|RPKI Unknown
+52005:1000:4|RPKI Invalid
+52005:101:0|Prepend once to any
+52005:102:0|Prepend twice to any
+52005:103:*|Prepend thrice to AS$1
+52005:103:0|Prepend thrice to any
+52005:65012|RPKI Valid
+52005:65022|RPKI Invalid
+52005:65032|RPKI Unknown
+52005:65281:*|Add NO-EXPORT to AS$1
+52005:65282:*|Add NO-ADVERTISE to AS$1
+65000:65012|RPKI Valid
+65000:65022|RPKI Invalid
+65000:65032|RPKI Unknown
+65281:*|Add NO-EXPORT to AS$1
+65282:*|Add NO-ADVERTISE to AS$1
+65501:52005|Prepend once to any
+65502:52005|Prepend twice to any
+65503:52005|Prepend thrice to any
+65511:*|Prepend once to AS$1
+65512:*|Prepend twice to AS$1
+65513:*|Prepend thrice to AS$1
+65535:0|graceful shutdown
+65535:1|accept own
+65535:1048321|no export
+65535:1048322|no advertise
+65535:1048323|no export subconfed
+65535:1048324|nopeer
+65535:2|route filter translated v4
+65535:3|route filter v4
+65535:4|route filter translated v6
+65535:5|route filter v6
+65535:6|llgr stale
+65535:666|Blackhole
+65535:7|no llgr
+65535:8|accept-own-nexthop
+rt:0:*|Do not announce to AS$1
+rt:0:52005|Do not announce to any
+rt:52005:*|Announce to AS$1
+rt:52005:65012|RPKI Valid
+rt:52005:65022|RPKI Invalid
+rt:52005:65032|RPKI Unknown
+rt:65000:65012|RPKI Valid
+rt:65000:65022|RPKI Invalid
+rt:65000:65032|RPKI Unknown
+rt:65281:*|Add NO-EXPORT to AS$1
+rt:65282:*|Add NO-ADVERTISE to AS$1
+rt:65501:52005|Prepend once to any
+rt:65502:52005|Prepend twice to any
+rt:65503:52005|Prepend thrice to any
+rt:65511:*|Prepend once to AS$1
+rt:65512:*|Prepend twice to AS$1
+rt:65513:*|Prepend thrice to AS$1
