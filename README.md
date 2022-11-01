@@ -1,7 +1,7 @@
 This repository contains artifacts for the paper:
 
 **Light, Camera, Actions: characterizing the usage of IXPs' action BGP communities**<br>
-*Fabricio Mazzola, Pedro Marcos and Marinho Barcellos*<br>
+*Fabricio Mazzola (fmmazzola@inf.ufrgs.br), Pedro Marcos (pbmarcos@furg.br) and Marinho Barcellos (marinho.barcellos@waikato.ac.nz)*<br>
 
 The artefacts in this repository can be used to reproduce the main results of the paper or to extend our work.
 
